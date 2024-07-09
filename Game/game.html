@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Galactic Wars</title>
+	<link rel="stylesheet" href="./game.css" />
+</head>
+
+<body>
+	<!--Background-->
+	<div class="sky" id="bg-space"></div>
+	<!--Health Display-->
+	<div class="hud" id="hp-display">
+		<ul class="health">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	<!--Character Display-->
+	<div id="player" class="character stand down">
+		<div class="head"></div>
+		<div class="body"></div>
+		<div class="weapon bow"></div>
+	</div>
+	<!--Spaceship Display-->
+	<div class="alien" id="alien"></div>
+	<!-- Bomb Display -->
+	<div class="bomb" id="bomb"></div>
+	<!--Cactus Display-->
+	<div class="tree" id="tree">
+		<img src="./images/tree.png" height="80px" width="80px">
+	</div>
+	<!--Start Button-->
+	<div class="start" id="start">
+		Start
+	</div>
+	<!--GAME OVER-->
+	<div class="game-over" id="game-over">
+		<div class="message">Game Over</div>
+		<p class="score-message">Your Score is: <span id="score-show">0</span></p>
+		<button id="play-again" onclick="location.reload()">Play Again?</button>
+	</div>
+	<!--SCOREBOARD-->
+	<div id="scoreboard" class="score">
+		<b>Score:</b> <span id="scoreCount">0</span>
+	</div>
+
+
+	<script src="./game.js"></script>
+</body>
+
+</html>
