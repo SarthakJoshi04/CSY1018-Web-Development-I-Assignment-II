@@ -1,2 +1,2 @@
 # CSY1018-Web-Development-I-Assignment-I
-Developing a game using HTML, CSS and JavaScript.
+A simple game using HTML, CSS and JavaScript where the player needs to control the character to dodge obstacles.
